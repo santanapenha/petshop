@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<meta charset="utf-8">
-<title> Agendamento </title>
+	<meta charset="utf-8">
+	<title> Agendamento </title>
 </head>
 <body bgcolor="#b47005">
- <h1>  Amor em Quatro Patas  </h1>
- <center> <img src="img/imagem.png"  width="400" height="300"> </center>
- <h2> <center>  <ins> AGENDAMENTO </ins> </center> </h2>
+	<h1>  Amor em Quatro Patas  </h1>
+	<center> <img src="img/imagem.png"  width="400" height="300"> </center>
+	<h2> <center>  <ins> AGENDAMENTO </ins> </center> </h2>
 <form action="obrigado.html">
  <p>
 <label for="nome"> Nome: </label>
@@ -26,20 +26,16 @@
    required>
 </p>
 <p>
-<label for="nome"> Data: </label>
-<input type="text"
-   name="nome"
-   id="nome"
-   placeholder="Digite a data"
-   required>
+<form>
+  <label for="birthday">Selecione a Data:</label>
+  <input type="date" id="birthday" name="birthday">
+</form>
 </p>
 <p>
-<label for="hora"> Hora: </label>
-<input type="hora"
-   name="hora"
-   id="hora"
-   placeholder="Digite a hora"
-   required>
+<form>
+  <label for="appt">Selecione o Horário:</label>
+  <input type="time" id="appt" name="appt">
+</form>
 </p>
 <p>
 <label for="telefone para contato"> Telefone para contato: </label>
@@ -59,7 +55,11 @@
   <input type="radio" id="css" name="fav_language" value="CSS">
   <label for="css">Coelho</label><br>
   <input type="radio" id="css" name="fav_language" value="CSS">
-  <label for="css">Cavalo</label
+  <label for="css">Cavalo</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Porco</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">Lhama</label
   required><br>
 </form>
   <p><label for="sexo">Sexo:</label>
@@ -88,6 +88,7 @@
     <option value="Banho e Hidratação">Banho e Hidratação</option>
     <option value="Banho, Tosa e Hidratação">Banho, Tosa e Hidratação</option>
     <option value="Pacote">Pacote</option>
+	<option value="Estadia">Estadia</option>
   </select>
   <p> <form>
   <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
