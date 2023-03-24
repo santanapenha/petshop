@@ -1,0 +1,17 @@
+body {
+    font-family: "Sofia", sans-serif;
+    background-color:#b47005;
+}
+
+h1 {
+    color:#000000;
+    background-color:#BD2EF0;
+    opacity:5;
+    border: 2px inset rgb(0,0,0);
+    text-shadow: 2px 2px #04ffe2;
+    
+}
+
+.center { 
+    text-align: center;
+}
